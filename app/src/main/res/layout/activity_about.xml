@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#12051F">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarAbout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#6A1B9A"
+        app:title="About"
+        app:titleTextColor="#FFFFFF"
+        app:navigationIconTint="#FFFFFF" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp">
+
+            <!-- App Title -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Our App"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#D8B4FE"
+                android:gravity="center"
+                android:layout_marginTop="12dp"/>
+
+            <!-- App Name -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baggage Fee Calculator"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_marginTop="16dp"/>
+
+            <!-- App Description -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This application helps users estimate excess baggage charges based on baggage weight, ticket class and excess baggage rate. It also calculates the applicable 8% service tax."
+                android:textSize="15sp"
+                android:textColor="#E0D5EA"
+                android:gravity="center"
+                android:lineSpacingExtra="3dp"
+                android:layout_marginTop="12dp"/>
+
+            <!-- Developer Details -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Developer Information"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#D8B4FE"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/tvDeveloper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name: NUR SUHAILA BINTI ZAIRI\nStudent ID: 2024274944\nCourse: CDCS2405A"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:lineSpacingExtra="8dp"
+                android:layout_marginTop="12dp"/>
+
+            <!-- Website -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="App Website"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#D8B4FE"
+                android:layout_marginTop="27dp"/>
+
+            <TextView
+                android:id="@+id/tvWebsite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://github.com/nursuhailaz/baggageFeeCalculator.git"
+                android:textSize="15sp"
+                android:textColor="#BB86FC"
+                android:autoLink="web"
+                android:layout_marginTop="8dp"/>
+
+            <!-- Copyright -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="© 2026 NUR SUHAILA BINTI ZAIRI. All Rights Reserved."
+                android:textSize="12sp"
+                android:textColor="#A99BB5"
+                android:gravity="center"
+                android:layout_marginTop="45dp"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
