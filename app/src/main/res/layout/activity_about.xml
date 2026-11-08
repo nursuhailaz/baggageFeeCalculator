@@ -79,7 +79,7 @@
                 android:id="@+id/tvDeveloper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Name: NUR SUHAILA BINTI ZAIRI\nStudent ID: 2024274944\nCourse: CDCS2405A"
+                android:text="Name: NUR SUHAILA BINTI ZAIRI\nStudent ID: 2024274944\nGroup: RCDCS2405A\nProgramme Code: CDCS240\nCourse: ICT602 Mobile Technology"
                 android:textSize="15sp"
                 android:textColor="#FFFFFF"
                 android:lineSpacingExtra="8dp"
